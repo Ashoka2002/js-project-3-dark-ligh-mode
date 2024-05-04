@@ -19,6 +19,7 @@ function DarkMode(mode = true) {
   img1.src = `img/undraw_proud_coder_${darkOrLight}.svg`;
   img2.src = `img/undraw_feeling_proud_${darkOrLight}.svg`;
   img3.src = `img/undraw_conceptual_idea_${darkOrLight}.svg`;
+  document.title = `Ashok | ${mode ? "Dark" : "Light"} Mode`;
 }
 
 function switchTheme(e) {
